@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+body{
+    background-color: #d6d6d6;
+}
+header{
+    background-image:radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../Feb11_project_Real_Estate/photos/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 120vh;
+}
+.nav{
+    margin: 0 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+img[alt="logo"]{
+    width: 120px;
+}
+.underline{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+.first{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.first h1{
+    font-weight: bold;
+    font-size: 60px;
+    max-width: 600px;
+}
+.first p{
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 400px;
+}
+.first button{
+    background-color: #620188;
+    border: none;
+    border-radius: 10px;
+    margin-right: 90%;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.first button:hover{
+    border: 2px solid white;
+}
+.logos{
+    background-color: white;
+    position: relative;
+    top: -35px;
+    padding: 20px;
+    margin: 0 35px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+img[alt="logos"]{
+    width: 100px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.estate{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.estates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.house{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: -30px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 0 15px;
+}
+.info h5{
+    color: #620188;
+}
+.info button{
+    background-color: #620188;
+    color: white;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.info button:hover{
+    border: 3px solid #22012b;
+}
+img[alt="image2"]{
+    margin-top: 20px;
+}
+img[alt="image3"]{
+    margin-top: 40px;
+}
+img[alt="image4"]{
+    margin-top: 60px;
+}
+img[alt="image5"]{
+    margin-top: 40px;
+}
+img[alt="image6"]{
+    margin-top: 20px;
+}
+img[alt="image7"]{
+    margin-top: 20px;
+}
+img[alt="image8"]{
+    margin-top: 40px;
+}
+img[alt="image9"]{
+    margin-top: 60px;
+}
+img[alt="features1"]{
+    width: 460px;
+    height: 280px;
+    margin-left: 20px;
+    position: relative;
+    top: -50px;
+    border-radius: 20px;
+}
+.home1{
+    background-color: #620188;
+    width: 550px;
+    height: 280px;
+    border-radius: 20px;
+}
+.violet1{
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 60px 20px 70px;
+    height: 250px;
+}
+.info1{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 70px;
+}
+.home1-info h1{
+    max-width: 300px;
+    font-size: 40px;
+}
+.home1-info p{
+    font-weight: bold;
+    max-width: 450px;
+    margin: 20px 0;
+}
+.home1-info button{
+    background-color: #620188;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home1-info button:hover{
+    border: 3px solid #2b052b;
+}
+.info2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+img[alt="features2"]{
+    width: 420px;
+    height: 280px;
+    position: relative;
+    top: -50px;
+    border-radius: 20px;
+}
+.violet2{
+    background-color: #620188;
+    width: 700px;
+    height: 280px;
+    border-radius: 20px;
+}
+.white2{
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    margin-left: 140px;
+    border-radius: 20px;
+}
+.home2-info h1{
+    font-size: 40px;
+    max-width: 300px;
+}
+.home2-info p{
+    font-weight: bold;
+    max-width: 350px;
+    margin: 30px 0;
+}
+.home2-info button{
+    background-color: #620188;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home2-info button:hover{
+    border: 3px solid #2b052b;
+}
+.home2-info {
+    margin-right: 40px;
+}
+/* 5th Section/add */
+.fifth{
+    background-color: #620188;
+    margin: 70px 50px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.fifth div h1{
+    font-weight: bold;
+    font-size: 50px;
+    max-width: 900px;
+    text-align: center;
+}
+.fifth div p{
+    font-weight: bold;
+    max-width: 500px;
+    text-align: center;
+    margin: 30px 0;
+    margin-left: 20%;
+}
+.subscribe{
+    display: flex;
+    gap: 20px;
+    margin-left: 20%;
+}
+.subscribe form{
+    background-color: #4a0266;
+    display: flex;
+    gap:10px;
+    border-radius: 20px;
+}
+.subscribe form input{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    padding: 10px 150px 10px 20px;
+}
+img[alt="mail"]{
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 30px;
+}
+.subscribe button{
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.subscribe button:hover{
+    border: 3px solid #3e054d;
+}
+/* 6th setion/footer */
+.sixth{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+img[alt="logo-end"]{
+    width: 100px;
+}
+.logo-bottom div img{
+    width: 30px;
+    margin: 20px 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo-bottom h4{
+    font-weight: 900;
+    max-width: 250px;
+}
+.location ul li,
+.contact ul li,
+.legals ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.location ul a,
+.contact ul a,
+.legals ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.location ul h3,
+.contact ul h3,
+.legals ul h3{
+    font-weight: 900;
+}

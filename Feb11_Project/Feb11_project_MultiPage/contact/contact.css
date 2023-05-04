@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 80px;
+}
+nav ul{
+    display: flex;
+    gap: 70px;
+    margin-right: 90px;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+img[alt="medifine"]{
+    width: 150px;
+}
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+     width: 350px; 
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px ;
+}
+form h1{
+    text-align: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+form div input{
+    border: transparent;
+    border-radius:10px ;
+    padding: 5px 10px;
+}
+form div textarea{
+    border: transparent;
+    border-radius: 10px;
+    resize: none;
+    height: 100px;
+    padding: 5px 10px;
+}
+form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 10px;
+    cursor: pointer;
+}

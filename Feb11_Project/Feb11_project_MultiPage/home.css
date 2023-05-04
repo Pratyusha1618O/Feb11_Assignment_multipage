@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    overflow: hidden;
+}
+body{
+    background-image: url(../Feb11_project_MultiPage/Images/stethoscope.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    margin: 30px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 70px;
+    margin-right: 90px;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+img[alt="medifine"]{
+    width: 150px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.text{
+    margin-top: 70px;
+}
+.text h1{
+    max-width: 400px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.text p{
+    max-width: 600px;
+    margin: 30px 0;
+}
+.text button{
+    background-color: #25af5f;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+.text button:hover{
+    border: 3px solid #1e4b2d;
+}
+img[alt="__"]{
+    margin-left: 70%;
+}
+img[class="mouse"]{
+    margin-top: 10px;
+    margin-left: 100%;
+}
+img[class="green"]{
+    width: 400px;
+    position: relative;
+    right: -50%;
+}
+img[class="orange"]{
+    width: 300px;
+    position: relative;
+    right: -15%;
+}
+img[class="doctor"]{
+    width: 400px;
+    position: relative;
+    top: -46%;
+    right: -50%;
+}
